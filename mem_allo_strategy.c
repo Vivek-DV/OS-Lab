@@ -93,15 +93,18 @@ int main()
 		printf("Enter\n1.First fit\n2.Best fit\n3.Worst fit\n4.Exit\n");
 		scanf("%d",&c);
 		if(c==4)
+		{
+			printf("Exiting the program...\n");
 			break;
-		printf("No. of partitions :");
+		}
+		printf("No. of partitions :\n");
 		scanf("%d",&n);
 		printf("Enter the partitions\n");
 		for(int i=0;i<n;i++)
 		{
 			scanf("%d",&partitions[i]);
 		}
-		printf("No. of process :");
+		printf("No. of process :\n");
 		scanf("%d",&p);
 		
 		switch(c)
